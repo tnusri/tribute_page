@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #011130;
+    min-height: 100vh;
+    border: 10px solid #ff7e06;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    color: white;
+  }
+  
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  .about_section {
+    margin-top: 50px;
+    color: white;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  .award_section {
+    margin: 50px 0;
+  }
+  .award_section h1 {
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  .award_section ul {
+    margin-left: 50px;
+    color: white;
+  }
+  .award_section li {
+    margin-bottom: 15px;
+  }
+  
+  
+  footer p {
+    text-align: right;
+    color: antiquewhite;
+    display: inline-block;
+    background: #ff7e06;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(255, 136, 0);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  .name{
+    font-size: larger;
+    font-weight: bold;
+  }
+ footer p:hover{
+  color:#ff7e06;
+  background: none;
+}
+.left {
+  
+  float: left;
+  width: 50%;
+}
+
+.right {
+
+  margin-left:50% ;
+}
+.center{
+  margin-right: 10px;
+}
